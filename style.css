@@ -67,24 +67,25 @@
     font-weight: bold;
     color: #FFFFFF;
     margin-bottom: 10px;
+    /* position: absolute; */
 }
 .content__signature {
     font-size: 1.5em;
     width: 650px;
-    bottom: 40px;
+    bottom: 4em;
 
 }
 .content__text {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 2.25em;
-    bottom: -100px;
+    bottom: -2em;
 }
 
 .content__sub {
     font-size: 18px;
     width: 400px;
-    bottom: -150px;
+    bottom: -7em;
 }
 
 .content__title,
