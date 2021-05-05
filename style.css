@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+
+.main {
+    background-color: #111111;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    color: #FFFFFF;
+}
+
+.header__logo,
+.header__basket {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav {
+    flex: 5;
+    display: flex;
+    justify-content: space-around;
+}
+.header__nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.banner {
+    background-color: #FCDA28;
+    padding: 0 90px;
+}
+.banner__wrapper {
+    display: flex;
+}
+
+
+.banner__content {
+    width: 50%;
+    color: #000000;
+}
+
+.banner__image {
+    bottom: 80px;
+    height: 800px;
+    position: relative;
+}
+
+.content__title {
+    margin-top: 140px;
+    font-size: 8.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.content__signature {
+    font-size: 1.5em;
+    width: 650px;
+    bottom: 40px;
+
+}
+.content__text {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.25em;
+    bottom: -100px;
+}
+
+.content__sub {
+    font-size: 18px;
+    width: 400px;
+    bottom: -150px;
+}
+
+.content__title,
+.content__signature,
+.content__text,
+.content__sub {
+    position: absolute;
+    z-index: 2;
+}
+
+.discount {
+    padding-top: 20px;
+    background-color: #111111;
+}
+.discount-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount__title {
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;    color: #FFFFFF;
+}
+.discount__title:first-child {
+    margin-top: 80px;
+}
+.discount__title:last-child {
+    color: #FCB500;
+}
+
+.discount__cost {
+    display: flex;
+    align-items: center;
+}
+.discount__price:first-child {
+    text-decoration: line-through;
+    color: #ADADAD;
+    font-size: 36px;
+}
+
+.discount__price {
+    color: #FFFFFF;
+    font-size: 48px;
+    margin: 80px 30px 40px;
+}
+
+.discount__content {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+
+.item__text {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.item__text:last-child {
+    color: #FCB500;
+}
+
+.discount__item:nth-child(2) .item__text {
+    font-size: 36px;
+}
+
+.discount__item img{
+    margin-bottom: 85px;
+}
+
+.discount__item:nth-child(2) img {
+    margin-bottom: 50px;
+}
+
+
+.discount__button {
+    width: 256px;
+    font-size: 18px;
+    height: 56px;
+    border-radius: 7px;
+    background-color: #FCB500;
+    padding: auto 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
