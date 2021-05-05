@@ -56,7 +56,7 @@
 
 .banner__image {
     bottom: 80px;
-    height: 800px;
+    /* height: 800px; */
     position: relative;
 }
 
@@ -97,6 +97,7 @@
 }
 
 .discount {
+    margin-top: -10em;
     padding-top: 20px;
     background-color: #111111;
 }
